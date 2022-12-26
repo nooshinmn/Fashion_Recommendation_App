@@ -4,4 +4,4 @@ sklearn==0.0.post1
 numpy==1.23.3
 pandas==1.5.0
 scipy==1.9.2
-PIL==9.2.0
+pillow==9.2.0
