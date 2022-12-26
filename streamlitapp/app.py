@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import streamlit as st
-from sklearn.feature_extraction.text import TfidfVectorizer
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 from PIL import Image
