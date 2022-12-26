@@ -9,7 +9,7 @@ import numpy as np
 from PIL import Image, ImageOps
 import scipy.sparse
 
-image = Image.open('hm.jpg')
+image = Image.open('streamlitapp/hm.jpg')
 st.image(image)
 
 
@@ -38,7 +38,7 @@ def get_recommendations(article_id, cosine_sim_mat,data, indices):
 
 def get_item_image(item_id, resize=True, width=100, height = 150):
     
-    images_dir = 'pic'
+    images_dir = 'streamlitapp/pic'
     path = f'{images_dir}/{str(item_id)} (Custom).jpg'
     image = Image.open(path)
     
