@@ -124,7 +124,8 @@ def main():
                     st.image(get_item_image(item_id[i]))
     else:
         st.subheader('About')
-        st.text('Built with streamlit by NooshinMollazadeh. LinkedIn URL: www.linkedin.com/in/nooshinmol')
+        st.text('Built with streamlit by NooshinMollazadeh.')
+        st.text(' LinkedIn URL: www.linkedin.com/in/nooshinmol')
         st.text('Github Profile:https://github.com/nooshinmn/H-M_Recommendation-System') 
         
 if __name__ == '__main__':
