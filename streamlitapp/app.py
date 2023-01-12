@@ -65,10 +65,10 @@ def main():
             st.markdown(f'<h1 style="color:#09ab3b;font-size:24px;">{"Content-based filtering recommender systems"}</h1>', unsafe_allow_html=True)
             st.write('The first recommender system is based on the content. It focuses on the content of the product itself without considering any information from the user.')
        
-            st.markdown(f'<h1 style="color:#33ff33;font-size:24px;">{"Collaborative filtering recommender systems (User-Item)"}</h1>', unsafe_allow_html=True)
+            st.markdown(f'<h1 style="color:#09ab3b;font-size:24px;">{"Collaborative filtering recommender systems (User-Item)"}</h1>', unsafe_allow_html=True)
             st.write('This system is based on the observation of user behavior and it classifies users and items into specific groups, this prediction can be made by taking into account consumer choices in the past and their resemblance to others.')
         
-            st.markdown(f'<h1 style="color:#33ff33;font-size:24px;">{"ALS Method"}</h1>', unsafe_allow_html=True)
+            st.markdown(f'<h1 style="color:#09ab3b;font-size:24px;">{"ALS Method"}</h1>', unsafe_allow_html=True)
             st.write('Work in process..')
 
         
