@@ -59,10 +59,10 @@ def main():
     choice = st.sidebar.selectbox("Menu",menu)
     
     if choice == 'Home':
-            st.markdown(f'<h1 style="color:#33ff33;font-size:24px;">{"Instruction to the application"}</h1>', unsafe_allow_html=True)
+            st.markdown(f'<h1 style="color:#09ab3b;font-size:24px;">{"Instruction to the application"}</h1>', unsafe_allow_html=True)
             st.write('In the sidebar menu you can choose what type of recommendation you want to have.Two types of recommender systems has been implemented in this application, please note that due to memory issues we could just work on limited number of items as sample results')
             
-            st.markdown(f'<h1 style="color:#33ff33;font-size:24px;">{"Content-based filtering recommender systems"}</h1>', unsafe_allow_html=True)
+            st.markdown(f'<h1 style="color:#09ab3b;font-size:24px;">{"Content-based filtering recommender systems"}</h1>', unsafe_allow_html=True)
             st.write('The first recommender system is based on the content. It focuses on the content of the product itself without considering any information from the user.')
        
             st.markdown(f'<h1 style="color:#33ff33;font-size:24px;">{"Collaborative filtering recommender systems (User-Item)"}</h1>', unsafe_allow_html=True)
